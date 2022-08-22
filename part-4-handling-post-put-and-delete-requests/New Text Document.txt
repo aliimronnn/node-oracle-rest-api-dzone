@@ -1,0 +1,12 @@
+curl -X "POST" "http://localhost:3000/api/employees" \
+     -i \
+     -H 'Content-Type: application/json' \
+     -d $'{
+  "employee_id": "emp4",
+  "first_name": "Dan",
+  "last_name": "McGhan",
+  "email": "dan@fakemail.com",
+  "job_id": "IT_PROG",
+  "hire_date": "2014-12-14T00:00:00.000Z",
+  "phone_number": "123-321-1234"
+}'
